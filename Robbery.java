@@ -13,7 +13,7 @@ public class Robbery {
 		int[] worths
 	) {
 		// fill in here, change the return
-			return 0;
+			return max(sizes, worths);
 	}
 
 	public int maximizeRobWorthBottomUp(
